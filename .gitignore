@@ -1,0 +1,23 @@
+# Credentials and local OAuth sessions
+.env
+.env.*
+!.env.example
+auth.json
+**/auth.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.xml
+*bootstrap*
+.codex/
+.private/
+oauth-*/
+
+# Generated and local files
+node_modules/
+*.log
+launch-status.json
+*.zip
+.DS_Store
+Thumbs.db

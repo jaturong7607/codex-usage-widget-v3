@@ -1,0 +1,13 @@
+{
+  "name": "codex-usage-widget-v3",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Direct Codex quota widgets for iPhone Scriptable",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test --test-isolation=none",
+    "check": "node --check \"scriptable/Codex V3.js\" && node --check \"scriptable/Codex V3 Mascot.js\"",
+    "build": "node tools/build.mjs"
+  }
+}
